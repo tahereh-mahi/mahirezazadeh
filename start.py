@@ -29,7 +29,7 @@ class EducationPortal(tornado.web.Application):
                         'max_connections': 2 ** 31,
                     },
                     'cookies': {
-                        'expires_days': 120,
+                        'expires_days': 0.006,
                     },
                 },
             }
